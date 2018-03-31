@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage 
+  SchemaVersion="1.0" 
+  AutodeskProduct="Revit" 
+  ProductType="Application" 
+  Name="RvtVa3c" 
+  AppVersion="1.2018.0" 
+  FriendlyVersion="1.2018.0"  
+  Description="RvtVa3c" 
+  Author="Va3c" 
+  Icon="./Content/va3c.png" 
+  AppNameSpace="appstore.exchange.autodesk.com" 
+  OnlineDocumentation="http://va3c.github.io/" 
+  HelpFile="./Content/RvtVa3c.htm" 
+  ProductCode="{AA80ECEB-BB62-4715-8F02-9E2E434C8CAA}" 
+  UpgradeCode="{B464B5B9-BA5A-4F96-BAEC-85501BEB4624}" 
+  SupportedLocales="Enu">
+  
+  <CompanyDetails 
+    Name="Autodesk" 
+    Phone=" " Url="http://www.autodesk.com" 
+    Email="info@va3c.github.io" />
+  <RuntimeRequirements 
+    OS="Win64" 
+    Platform="Revit|Revit MEP|Revit Architecture|Revit Structure" 
+    SeriesMin="R2018" 
+    SeriesMax="R2018" />
+  
+  <Components Description="RvtVa3c parts addin 2018">
+    <RuntimeRequirements
+      OS="Win64"
+      Platform="Revit|Revit MEP|Revit Architecture|Revit Structure"
+      SeriesMin="R2018"
+      SeriesMax="R2018" />
+    <ComponentEntry
+      AppName="RvtVa3c"
+      Version="1.0.2018.0"
+      ModuleName="./2018/RvtVa3c.addin"
+      AppDescription="RvtVa3c addin for export to three.js" />
+  </Components>
+</ApplicationPackage>

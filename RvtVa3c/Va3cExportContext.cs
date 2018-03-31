@@ -350,7 +350,7 @@ namespace RvtVa3c
         CurrentGeometryPerMaterial.data.uvs = new List<double>();
         CurrentGeometryPerMaterial.data.visible = true;
         CurrentGeometryPerMaterial.data.castShadow = true;
-        CurrentGeometryPerMaterial.data.receiveShadow = false;
+        CurrentGeometryPerMaterial.data.receiveShadow = true;
         CurrentGeometryPerMaterial.data.doubleSided = true;
         CurrentGeometryPerMaterial.data.scale = 1.0;
       }

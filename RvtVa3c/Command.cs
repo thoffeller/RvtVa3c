@@ -280,7 +280,7 @@ namespace RvtVa3c
       SaveFileDialog dlg = new SaveFileDialog();
 
       dlg.Title = "Select JSON Output File";
-      dlg.Filter = "JSON files|*.js";
+      dlg.Filter = "JSON files|*.json";
 
       if( null != folder_path
         && 0 < folder_path.Length )
@@ -354,7 +354,7 @@ namespace RvtVa3c
         }
       }
 
-      filename = Path.GetFileName( filename ) + ".js";
+      filename = Path.GetFileName( filename ) + ".json";
 
       if( !SelectFile( ref _output_folder_path,
         ref filename ) )
